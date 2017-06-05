@@ -6,24 +6,26 @@
         "name" : "soft-nam",
         "email" : "artkoz8@gmail.com"
     }],
-    "keywords" : [
-        "admin layout"
-    ],
-    "license" : [
-        "MIT"
-    ],
+    "keywords" : ["admin", "layout"],
+    "license" : ["MIT"],
     "require" : {
         "symfony/assetic-bundle": "^2.8",
-        "twig/twig": "^1.0||^2.0"
+        "twig/twig": "^1.0||^2.0",
+        "php": ">=7.0",
+        "symfony/monolog-bridge": "~2.7|~3.0",
+        "symfony/dependency-injection": "~2.7|~3.0",
+        "symfony/config": "~2.7|~3.0",
+        "symfony/http-kernel": "~2.7|~3.0",
+        "monolog/monolog": "~1.22"
+    },
+    "require-dev": {
+        "symfony/yaml": "~2.3|~3.0",
+        "symfony/console": "~2.3|~3.0",
+        "phpunit/phpunit": "^4.8"
     },
     "autoload" : {
-        "psr-0" : {
-            "SoftBpm\\Layout\\SoftBpmLayoutLimitlessBundle" : ""
-        }
+        "psr-4" : {"SoftBpm\\Layout\\SoftBpmLayoutLimitlessBundle" : ""}
     },
-    "target-dir" : "SoftBpm/Layout/SoftBpmLayoutLimitlessBundle",
-    "repositories" : [{
-    }],
     "extra" : {
         "branch-alias" : {
             "dev-master" : "some_version-dev"
