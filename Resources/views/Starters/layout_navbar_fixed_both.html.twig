@@ -1,0 +1,35 @@
+{% extends '@SoftBpmLayoutLimitless/layout.html.twig' %}
+{% block headTitle %}navbar fixed both{% endblock headTitle %}
+{% block bodyClass %}navbar-top-md-md{% endblock bodyClass %}
+
+{% block body %}
+
+	<!-- Fixed navbars wrapper -->
+	<div class="navbar-fixed-top">
+		<!-- Main navbar -->
+		{% block pageMainNavbar %}
+			{{ parent() }}
+		{% endblock pageMainNavbar %}
+		<!-- /main navbar -->
+
+		<!-- Second navbar -->
+        {% block pageSecondNavbar %}
+            {{ parent() }}
+        {% endblock pageSecondNavbar %}
+		<!-- /second navbar -->
+	</div>
+	<!-- /fixed navbars wrapper -->
+
+	<!-- Page header -->
+    {% block pageHeader %}
+        {{ parent() }}
+    {% endblock pageHeader %}
+	<!-- /page header -->
+
+	<!-- Page container -->
+    {% block pageContainer %}
+        {{ parent() }}
+    {% endblock pageContainer %}
+	<!-- /page container -->
+
+{% endblock body %}
