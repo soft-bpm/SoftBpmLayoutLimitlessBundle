@@ -1,0 +1,32 @@
+{
+    "name" : "softbpm/layoutlimitless4-bundle",
+    "description" : "Limitless layout 4",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "soft-nam",
+        "email" : "artkoz8@gmail.com"
+    }],
+    "keywords" : [
+        "admin layout"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "symfony/assetic-bundle": "^2.8",
+        "twig/twig": "^1.0||^2.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "SoftBpm\\Layout\\SoftBpmLayoutLimitlessBundle" : ""
+        }
+    },
+    "target-dir" : "SoftBpm/Layout/SoftBpmLayoutLimitlessBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
