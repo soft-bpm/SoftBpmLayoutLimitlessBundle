@@ -11,7 +11,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/layout_sidebar_sticky", name="softbpm_layout_limitless_starters_layoutsidebarsticky")
-     * @Template("@SoftBpmLayoutLimitless/Starters/layout_sidebar_sticky.html.twig")
+     * @Template("@Limitless/Starters/layout_sidebar_sticky.html.twig")
      */
     public function layoutSidebarStickyAction()
     {
@@ -21,7 +21,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/layout_navbar_fixed_secondary", name="softbpm_layout_limitless_starters_layoutnavbarfixedsecondary")
-     * @Template("@SoftBpmLayoutLimitless/Starters/layout_navbar_fixed_secondary.html.twig")
+     * @Template("@Limitless/Starters/layout_navbar_fixed_secondary.html.twig")
      */
     public function layoutNavbarFixedSecondaryAction()
     {
@@ -31,7 +31,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/layout_navbar_fixed_main", name="softbpm_layout_limitless_starters_layoutnavbarfixedmain")
-     * @Template("@SoftBpmLayoutLimitless/Starters/layout_navbar_fixed_main.html.twig")
+     * @Template("@Limitless/Starters/layout_navbar_fixed_main.html.twig")
      */
     public function layoutNavbarFixedMainAction()
     {
@@ -41,7 +41,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/layout_navbar_fixed_both", name="softbpm_layout_limitless_starters_layoutnavbarfixedboth")
-     * @Template("@SoftBpmLayoutLimitless/Starters/layout_navbar_fixed_both.html.twig")
+     * @Template("@Limitless/Starters/layout_navbar_fixed_both.html.twig")
      */
     public function layoutNavbarFixedBothAction()
     {
@@ -51,7 +51,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/layout_boxed", name="softbpm_layout_limitless_starters_layoutboxed")
-     * @Template("@SoftBpmLayoutLimitless/Starters/layout_boxed.html.twig")
+     * @Template("@Limitless/Starters/layout_boxed.html.twig")
      */
     public function layoutBoxedAction()
     {
@@ -61,7 +61,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/1_col", name="softbpm_layout_limitless_starters_1col")
-     * @Template("@SoftBpmLayoutLimitless/Starters/1_col.html.twig")
+     * @Template("@Limitless/Starters/1_col.html.twig")
      */
     public function oneColAction()
     {
@@ -71,7 +71,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/2_col", name="softbpm_layout_limitless_starters_2col")
-     * @Template("@SoftBpmLayoutLimitless/Starters/2_col.html.twig")
+     * @Template("@Limitless/Starters/2_col.html.twig")
      */
     public function twoColAction()
     {
@@ -81,7 +81,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/3_col_double", name="softbpm_layout_limitless_starters_3coldouble")
-     * @Template("@SoftBpmLayoutLimitless/Starters/3_col_double.html.twig")
+     * @Template("@Limitless/Starters/3_col_double.html.twig")
      */
     public function threeColDoubleAction()
     {
@@ -91,7 +91,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/3_col_dual", name="softbpm_layout_limitless_starters_3coldual")
-     * @Template("@SoftBpmLayoutLimitless/Starters/3_col_dual.html.twig")
+     * @Template("@Limitless/Starters/3_col_dual.html.twig")
      */
     public function threeColDualAction()
     {
@@ -101,7 +101,7 @@ class StartersController extends Controller
     /**
      * @return array
      * @Route("/4_col", name="softbpm_layout_limitless_starters_4col")
-     * @Template("@SoftBpmLayoutLimitless/Starters/4_col.html.twig")
+     * @Template("@Limitless/Starters/4_col.html.twig")
      */
     public function fourColAction()
     {

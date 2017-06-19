@@ -4,31 +4,31 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% block headTitle %}Limitless - Responsive Web Application Kit by Eugene Kopyov{% endblock headTitle %}</title>
+	<title>{% block headTitle %}{{ 'layout_main_headTitle'|trans }}{% endblock headTitle %}</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="{{ asset('bundles/softbpmlayoutlimitless/assets/css/icons/icomoon/styles.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('bundles/softbpmlayoutlimitless/assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('bundles/softbpmlayoutlimitless/assets/css/core.min.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('bundles/softbpmlayoutlimitless/assets/css/components.min.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('bundles/softbpmlayoutlimitless/assets/css/colors.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('bundles/limitless/assets/css/icons/icomoon/styles.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('bundles/limitless/assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('bundles/limitless/assets/css/core.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('bundles/limitless/assets/css/components.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('bundles/limitless/assets/css/colors.css') }}" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
     {% block headStylesheets %}{% endblock headStylesheets %}
 
 	<!-- Core JS files -->
-	<script type="text/javascript" src="{{ asset('bundles/softbpmlayoutlimitless/assets/js/core/libraries/jquery.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('bundles/softbpmlayoutlimitless/assets/js/core/libraries/bootstrap.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('bundles/softbpmlayoutlimitless/assets/js/plugins/ui/nicescroll.min.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('bundles/softbpmlayoutlimitless/assets/js/plugins/ui/drilldown.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/limitless/assets/js/core/libraries/jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/limitless/assets/js/core/libraries/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/limitless/assets/js/plugins/ui/nicescroll.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/limitless/assets/js/plugins/ui/drilldown.js') }}"></script>
 	<!-- /core JS files -->
 
     {% block headThemeJSFiles %}{% endblock headThemeJSFiles %}
 
 	<!-- Theme JS files -->
 	{% block headCoreThemeJSfiles %}
-	<script type="text/javascript" src="{{ asset('bundles/softbpmlayoutlimitless/assets/js/core/app.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/limitless/assets/js/core/app.js') }}"></script>
     {% endblock headCoreThemeJSfiles %}
 	<!-- /theme JS files -->
 
@@ -47,7 +47,7 @@
 
 				<div class="navbar-header">
 					<a class="navbar-brand" href="{% block pageMainNavbar_logo_href %}index.html{% endblock pageMainNavbar_logo_href %}">
-						<img src="{% block pageMainNavbar_logo_imgsrc %}{{ asset('bundles/softbpmlayoutlimitless/assets/images/logo_light.png') }}{% endblock pageMainNavbar_logo_imgsrc %}" alt="">
+						<img src="{% block pageMainNavbar_logo_imgsrc %}{{ asset('bundles/limitless/assets/images/logo_light.png') }}{% endblock pageMainNavbar_logo_imgsrc %}" alt="">
 					</a>
 
 					<ul class="nav navbar-nav pull-right visible-xs-block">
@@ -82,7 +82,7 @@
 
 						<li class="dropdown dropdown-user">
 							<a class="dropdown-toggle" data-toggle="dropdown">
-								<img src="{{ asset('bundles/softbpmlayoutlimitless/assets/images/signature.png') }}" alt="">
+								<img src="{{ asset('bundles/limitless/assets/images/signature.png') }}" alt="">
 								<span>Victoria</span>
 								<i class="caret"></i>
 							</a>
